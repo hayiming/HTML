@@ -24,8 +24,9 @@ display:block;
   margin-top:2rem;
 
 }
-.two img{margin:0 auto;
-width:30%;}
+.three p{text-align:left;
+display: inline-block;}
+.two img{margin:0 auto;}
 .three{
   text-align: center;
   padding:10% 10%;
