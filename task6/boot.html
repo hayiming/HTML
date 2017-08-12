@@ -18,6 +18,8 @@ img{
 ol, ul ,li{
     list-style: none;
 }
+body{position: relative;
+}
 .clearfix:after{
     content:"";
     clear:both;
@@ -26,14 +28,15 @@ ol, ul ,li{
 
 .dropdown{
     float: left;
-    width:33.3%;
-    border-right:1px solid grey;
+    width:33.33%;
+    border-right:.0625rem solid #e1e5e7;
 }
-button{
+.dropdown button{
     width:100%;
     background-color: white;
     color:grey;
 }
+.nav{padding:1.5625rem 0 1.875rem 0;}
 .dropdown-menu{
     width:100%;
     text-align: center;
@@ -44,17 +47,58 @@ button{
 }
 .col-xs-6{
     font:2rem 黑体;
+    padding:1.875rem 0;
+    padding-left:3.125rem;
 }
 .col-xs-5{
     font:2rem 黑体;
+    text-align:right;
     color:#FF6A6A;
+    padding:1.875rem 0;
+}
+.col-xs-1{
+    font:2rem 黑体;
+    color:#5fc0cd;
+    padding:1.875rem 0;
+    text-align: right;
 }
 .one{
-    border-top:1px solid grey;
+    border-top:.0625rem solid #e1e5e7;
+    padding:1.875rem 0;
 }
+header{
+    text-align: center;
+    background-color: #5fc0cd;
+    width:100%;
+    position: fixed;
+    top:0;
+    padding:.5rem 0;
+    z-index: 100;
+}
+.main{margin-top:46px;}
+#btn-1{
+    background-color: #55a8b3;
+    color:white;
+    margin:0;
+}
+#btn-2{
+    background-color: white;
+    color:#5fc0cd;
+    margin:0;
+}
+footer{text-align: center;
+    width:100%;
+    position: fixed;
+padding:.1875rem 0;
+    border-top:1px solid #e1e5e7;
+    bottom:0;
+background-color: #f8fafb;}
+footer .btn{border-radius:3.125rem;margin:0;height:2.875rem;margin:0 6.25rem;}
+.fix{margin-bottom:2.96875rem/* 47.5px */;}
 </style>
 </head>
 <body>
+<header><button type="button" class="btn" id="btn-1">找雇主</button><button type="button" class="btn" id="btn-2">找护工</button></header>
 <div class="main">
 <div class="nav">
 <div class="dropdown">
@@ -132,7 +176,7 @@ button{
 <div class="one">
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 ">服务日期</div>
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-calendar">服务日期</span></div>
     </div>
 </div>
 
@@ -146,10 +190,122 @@ button{
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 ">北京.通州.果园</div>
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-map-marker"></span>北京.通州.果园</div>
 
     </div></div>
 </div>
 </div>
+<div class="one">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-calendar">服务日期</span></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 ">2017-8-7至2017-9-8</div>
+        <div class="col-xs-5 " >25元/小时</div>
+         <div class="col-xs-1 " >></div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-map-marker"></span>北京.通州.果园</div>
+
+    </div></div>
+</div>
+<div class="one">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-calendar">服务日期</span></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 ">2017-8-7至2017-9-8</div>
+        <div class="col-xs-5 " >25元/小时</div>
+         <div class="col-xs-1 " >></div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-map-marker"></span>北京.通州.果园</div>
+
+    </div></div>
+</div>
+<div class="one">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-calendar">服务日期</span></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 ">2017-8-7至2017-9-8</div>
+        <div class="col-xs-5 " >25元/小时</div>
+         <div class="col-xs-1 " >></div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-map-marker"></span>北京.通州.果园</div>
+
+    </div></div>
+</div>
+<div class="one">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-calendar">服务日期</span></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 ">2017-8-7至2017-9-8</div>
+        <div class="col-xs-5 " >25元/小时</div>
+         <div class="col-xs-1 " >></div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-map-marker"></span>北京.通州.果园</div>
+
+    </div></div>
+</div>
+<div class="one">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-calendar">服务日期</span></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 ">2017-8-7至2017-9-8</div>
+        <div class="col-xs-5 " >25元/小时</div>
+         <div class="col-xs-1 " >></div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 "><span class="glyphicon glyphicon-map-marker"></span>北京.通州.果园</div>
+
+    </div></div>
+    <div class="fix"></div>
+</div>
+
+<footer><span class="glyphicon glyphicon-home"><br>首页</span>
+<button class="btn btn-primary btn">
+  <span class=" glyphicon glyphicon-edit"></span>
+</button>
+<span class=" glyphicon glyphicon-user"><br>我的</span></footer>
 </body>
 </html>
