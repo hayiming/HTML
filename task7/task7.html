@@ -20,12 +20,19 @@
         ol, ul ,li{
     list-style: none;
 }
+    .clearfix:after{
+    content:"";
+    clear:both;
+    display:block;
+}
         .col-xs-8 span{
     display:block;
     color:#787878;
     font-size:1rem;
 }
-body{background-color: #f0f0f0;}
+body{
+    background-color: #f0f0f0;
+}
 .col-xs-12{
     text-align:center;
     color:#fbb435;
@@ -43,27 +50,51 @@ body{background-color: #f0f0f0;}
     padding:2rem 0;
     margin:1.875rem 0;
 }
-.two{margin:0 8%;
-border:1px solid #cecece;
-background-color: white;}
-.one{text-align: center;
-font:2rem 黑体;
-color:#9a9a9a;
-background-color: white;
-padding:2rem 0;
-border:1px solid #cecece;
-margin:1.625rem 8%;}
-.col-xs-2 span{font-size:3rem;
-color:#fbb435;}
-.col-xs-2{text-align: center;
+.two{
+    margin:0 8%;
+    border:1px solid #cecece;
+    background-color: white;
+    padding-bottom:2%;
+}
+.one{
+    text-align: center;
+    font:2rem 黑体;
+    color:#9a9a9a;
+    background-color: white;
+    padding:2rem 0;
+    border:1px solid #cecece;
+    margin:1.625rem 8%;
+}
+.col-xs-2 span{
+    font-size:3rem;
+    color:#fbb435;
+}
+.col-xs-2{
+    text-align: center;
     padding-top:15rem;
 }
-.col-xs-9{width:.5rem;
-    height:1rem;
-background-color: #F90909;
-border-radius:50px;}
-header{background-color: #29bde0;}
+.yuan-2{
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background-color: #f0f0f0;float: left;margin-left:1%;
+
+    padding:0;
+}
+header{
+    background-color: #29bde0;color:white;padding:1% 1%;
+}
+.col-xs-11{margin-top:2%;}
+.yuan-1{
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background-color: #69d1e9;float: left;margin-left:49%;
+
+    padding:0;
+}
     </style>
+
 
 </head>
 <body>
@@ -86,7 +117,7 @@ header{background-color: #29bde0;}
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-xs-9 "></div>
+        <div class="col-xs-11 "><div class="yuan-1"></div><div class="yuan-2"></div><div class="yuan-2"></div><div class="yuan-2"></div></div>
     </div>
 </div>
 
