@@ -24,6 +24,7 @@ header .left{
     background-color: #55a8b3;
     color: white;
     font-size: 2rem;
+
 }
 header .right{
     background-color: white;
@@ -31,9 +32,11 @@ header .right{
     font-size: 2rem;
 }
 header .address{
-    float: right;
+    position: absolute;
+    right: 0;
 }
 nav{
+    width:100%;
     padding: 10px 0;
     margin-top: 62px;
 }
@@ -46,11 +49,11 @@ nav .mid{
     border-left: 1px solid #ADADAD;
 }
 .container{
-    margin: 0;
-    width: 100%;
+     width: 100%;
+     margin: 0;
 }
 .dropdown-menu{
-    width:100%;
+    min-width: 100%;
     text-align: center;
 }
 .main{
