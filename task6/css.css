@@ -24,7 +24,6 @@ header .left{
     background-color: #55a8b3;
     color: white;
     font-size: 2rem;
-
 }
 header .right{
     background-color: white;
@@ -49,8 +48,8 @@ nav .mid{
     border-left: 1px solid #ADADAD;
 }
 .container{
-     width: 100%;
-     margin: 0;
+    width: 100%;
+    margin: 0;
 }
 .dropdown-menu{
     min-width: 100%;
@@ -77,6 +76,10 @@ nav .mid{
     float: right;
     font-size: 2rem;
     color: #5fc0cd;
+}
+.fix{
+    width: 100%;
+    padding-bottom:49px;
 }
 footer{
     width: 100%;
