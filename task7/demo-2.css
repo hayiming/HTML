@@ -1,43 +1,55 @@
-*{
+* {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
-img{
-    border:0;
+
+img {
+    border: 0
 }
-ol, ul ,li{
-    list-style: none;
+
+ol,
+ul,
+li {
+    list-style: none
 }
-html{
-    font-size: 62.5%;
+
+html {
+    font-size: 62.5%
 }
-body{
-    background-color: #29bde0;
+
+body {
+    background-color: #29bde0
 }
-a{
-    text-decoration: none;
+
+a {
+    text-decoration: none
 }
-header{
+
+header {
     background-color: #29bde0;
     color: white;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3rem
 }
-header .left{
+
+header .left {
     float: left;
-    font-size: 3rem;
+    font-size: 3rem
 }
-header .right{
+
+header .right {
     float: right;
-    font-size: 3rem;
+    font-size: 3rem
 }
-.text-1{
+
+.text-1 {
     background-color: #b9e9f5;
     color: #6a7b7f;
     font-size: 2.5rem;
-    padding: 2rem 0;
+    padding: 2rem 0
 }
-button{
+
+button {
     float: right;
     position: relative;
     top: 1rem;
@@ -46,9 +58,10 @@ button{
     height: 4rem;
     border-radius: 50%;
     background-color: #fbb435;
-    border: none;
+    border: none
 }
-    .play{
+
+.play {
     width: 0;
     height: 0;
     position: absolute;
@@ -56,15 +69,17 @@ button{
     top: 1rem;
     border-top: 1rem solid transparent;
     border-left: 2rem solid white;
-    border-bottom: 1rem solid transparent;
+    border-bottom: 1rem solid transparent
 }
-.text-2{
+
+.text-2 {
     position: relative;
     color: white;
     font-size: 2rem;
-    padding: 2rem 0;
+    padding: 2rem 0
 }
-.san{
+
+.san {
     width: 0;
     height: 0;
     position: absolute;
@@ -72,79 +87,93 @@ button{
     left: 5rem;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #b9e9f5;
+    border-top: 10px solid #b9e9f5
 }
-.body{
+
+.body {
     position: relative;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 6rem;
+    margin-bottom: 6rem
 }
-.container{
+
+.container {
     width: 30%;
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem
 }
-.box-1{
+
+.box-1 {
     border: 5px solid white;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem
 }
-.rpg{
+
+.rpg {
     text-align: center;
     padding: 13vw 0;
-    background-color: #f5c97b;
+    background-color: #f5c97b
 }
-.num{
+
+.num {
     text-align: center;
-    background-color: #83b09a;
+    background-color: #83b09a
 }
-.box-2{
+
+.box-2 {
     width: 100%;
     display: none;
-    position: absolute;
+    position: absolute
 }
-.container:hover .box-2{
-    display: block;
+
+.container:hover .box-2 {
+    display: block
 }
-ul{
+
+ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
-.item1{
+
+.item1 {
     background: url(images/sprite.png) 0 0 no-repeat;
     width: 30px;
     height: 30px;
-    display: inline;
+    display: inline
 }
-.item2{
+
+.item2 {
     background: #fff url(images/sprite.png) -30px 0 no-repeat;
     width: 30px;
     height: 30px;
-    display: inline;
+    display: inline
 }
-.item3{
+
+.item3 {
     background: #fff url(images/sprite.png) 0 -30px no-repeat;
     width: 30px;
     height: 30px;
-    display: inline;
+    display: inline
 }
-.item4{
+
+.item4 {
     background: #fff url(images/sprite.png) 0 0 no-repeat;
     width: 30px;
     height: 30px;
-    display: inline;
+    display: inline
 }
-footer{
+
+footer {
     width: 100%;
     position: fixed;
     bottom: 0;
     background-color: #29bde0;
-    border-top: 1px solid white;
+    border-top: 1px solid white
 }
-.footer{
-    color: white;
+
+.footer {
     background-color: #fbb435;
+    color: white;
     margin: 2% 5%;
     padding: 1rem 0;
     text-align: center;
