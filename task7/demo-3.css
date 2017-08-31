@@ -1,42 +1,52 @@
- *{
+* {
     font-size: 62.5%;
     margin: 0;
     padding: 0;
 }
-    img{
-    border:0;
+
+img {
+    border: 0;
 }
-    ol, ul ,li{
+
+ol,
+ul,
+li {
     list-style: none;
 }
-        header{
-    width:100%;
+
+header {
+    width: 100%;
     position: fixed;
-    top:0;
+    top: 0;
     background-color: #29bde0;
-    color:white;
+    color: white;
     text-align: center;
     font-size: 3.6rem;
 }
-        header .left{
+
+header .left {
     float: left;
 }
-        header .right{
+
+header .right {
     float: right;
 }
-.main{
+
+.main {
     margin-top: 3.25rem;
     margin-bottom: 7.1rem;
 }
-        footer {
-    width:100%;
+
+footer {
+    width: 100%;
     position: fixed;
-    bottom:0;
+    bottom: 0;
     background-color: rgba(153, 223, 240, 0.5);
-    padding:1rem 0;
+    padding: 1rem 0;
 }
-        footer .left{
-    width:30%;
+
+footer .left {
+    width: 30%;
     float: left;
     background-color: #f66f6f;
     color: white;
@@ -46,46 +56,55 @@
     padding: 1rem;
     margin-left: 5%;
 }
-        footer .right{
-    width:30%;
+
+footer .right {
+    width: 30%;
     float: right;
     background-color: #fbb435;
-    color:white;
+    color: white;
     text-align: center;
-    font-size:2rem;
-    border-radius:10px;
-    padding:1rem;
-    margin-right:5%;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-right: 5%;
 }
-        .one{
+
+.one {
     text-align: center;
     background-color: #29bde0;
-    padding:0 5%;
+    padding: 0 5%;
 }
-        p.orange{
-    color:orange;
-    font-size:3.4rem;
+
+p.orange {
+    color: orange;
+    font-size: 3.4rem;
 }
-        p.white{
-    color:white;
-    font-size:2.6rem;
+
+p.white {
+    color: white;
+    font-size: 2.6rem;
 }
-        p{
+
+p {
     text-align: left;
 }
-        span{
+
+span {
     float: right;
     font-size: 2rem;
 }
-        p.black{
-    font-size:3rem;
+
+p.black {
+    font-size: 3rem;
 }
-        p.grey{
-    color:grey;
+
+p.grey {
+    color: grey;
     font-size: 2.6rem;
     margin-top: 1rem;
 }
-.two{
-    border-bottom:1px solid grey;
-    padding:1rem 5%;
+
+.two {
+    border-bottom: 1px solid grey;
+    padding: 1rem 5%;
 }

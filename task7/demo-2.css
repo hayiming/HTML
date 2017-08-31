@@ -14,7 +14,9 @@ html{
 body{
     background-color: #29bde0;
 }
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+}
 header{
     background-color: #29bde0;
     color: white;
@@ -36,10 +38,10 @@ header .right{
     padding: 2rem 0;
 }
 button{
+    float: right;
     position: relative;
     top: 1rem;
     right: 1rem;
-    float: right;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
@@ -49,12 +51,12 @@ button{
     .play{
     width: 0;
     height: 0;
-    border-top: 1rem solid transparent;
-    border-left: 2rem solid white;
-    border-bottom: 1rem solid transparent;
     position: absolute;
     left: 1.25rem;
     top: 1rem;
+    border-top: 1rem solid transparent;
+    border-left: 2rem solid white;
+    border-bottom: 1rem solid transparent;
 }
 .text-2{
     position: relative;
@@ -65,12 +67,12 @@ button{
 .san{
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #b9e9f5;
     position: absolute;
     top: 0;
     left: 5rem;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #b9e9f5;
 }
 .body{
     position: relative;
@@ -141,10 +143,10 @@ footer{
     border-top: 1px solid white;
 }
 .footer{
-    font-size: 2rem;
     color: white;
     background-color: #fbb435;
     margin: 2% 5%;
     padding: 1rem 0;
     text-align: center;
+    font-size: 2rem;
 }
